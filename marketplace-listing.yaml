@@ -1,0 +1,301 @@
+openapi: 3.0.0
+info:
+  title: Marketplace Listing API
+  description:
+    "The Marketplace Listing API allows you to manage the listings with CRUD operations. Supported authentication mechanisms are: 
+    
+    * [Personal Access Token Authentication](https://docs.databricks.com/dev-tools/api/latest/authentication.html) on AWS (https://accounts.cloud.databricks.com)
+    * Disclaimer: The APIs here are not officially maintained and might change without notice. 
+     "
+  version: '0.1'
+
+paths:
+  /api/2.0/marketplace-provider/listing:
+    post:
+      tags:
+        - Listing
+      summary: Add a listing
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateListing'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Listing'
+        '400':
+          description: Invalid params supplied
+        '500':
+          description: Internal server error
+
+
+  /api/2.0/marketplace-provider/listings:
+    get:
+      tags:
+        - Listing
+      summary: Get all listings in the account
+      responses:
+        '200':
+          description: successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Listing'
+        '500':
+          description: Internal server error
+
+  /api/2.0/marketplace-provider/listings/{listing_id}:
+    parameters:
+      - name: listing_id
+        in: path
+        required: true
+        schema:
+          type: string
+          format: uuid
+    get:
+      tags:
+        - Listing
+      summary: Get an existing listing
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Listing'
+        '400':
+          description: Bad request
+        '404':
+          description: Specified object not found
+        '500':
+          description: Internal server error
+    put:
+      tags:
+        - Listing
+      summary: Update an existing listing
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateListing'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Listing'
+        '400':
+          description: Invalid params supplied
+        '404':
+          description: Specified object not found
+        '500':
+          description: Internal server error
+    delete:
+      tags:
+        - Listing
+      summary: Delete an existing listing
+      responses:
+        '200':
+          description: Successful operation
+        '400':
+          description: Bad request
+        '404':
+          description: Specified object not found
+        '500':
+          description: Internal server error
+
+components:
+  schemas:
+    Listing:
+      type: object
+      required:
+        - deploymentName
+        - summary
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: 2a5b461b-5ec2-4de3-8e8f-f390bd7caf75
+        deploymentName:
+          type: string
+          example: your workspace URL identifier "dbc-df876f81-14df" in case of dbc-df876f81-14df.cloud.databricks.com
+        summary:
+          $ref: '#/components/schemas/ListingSummary'
+        detail:
+          $ref: '#/components/schemas/ListingDetail'
+    CreateListing:
+      type: object
+      properties:
+
+        listing:
+          $ref: '#/components/schemas/Listing'
+    UpdateListing:
+      type: object
+      properties:
+        id:
+          type: string
+        listing:
+          $ref: '#/components/schemas/Listing'
+    ListingSummary:
+      type: object
+      required:
+        - name
+        - listingType
+        - setting
+      properties:
+        name:
+          type: string
+        listingType:
+          type: string
+          enum:
+            - standard
+            - personalized
+        subtitle:
+          type: string
+        status:
+          type: string
+          enum:
+            - draft
+            - pending
+            - published
+            - suspended
+        provider_id:
+          type: string
+          format: uuid
+        share:
+          $ref: '#/components/schemas/ShareInfo'
+        categories:
+          type: array
+          items:
+            type: string
+            enum:
+              - ADVERTISING_AND_MARKETING
+              - CLIMATE_AND_ENVIRONMENT
+              - COMMERCE
+              - DEMOGRAPHICS
+              - ECONOMICS
+              - EDUCATION
+              - ENERGY
+              - FINANCIAL
+              - GAMING
+              - GEOSPATIAL
+              - HEALTH
+              - MEDIA
+              - OTHER
+              - PUBLIC_SECTOR
+              - RETAIL
+              - SECURITY
+              - SCIENCE_AND_RESEARCH
+              - SPORTS
+              - TRANSPORTATION_AND_LOGISTICS
+              - TRAVEL_AND_TOURISM
+        setting:
+          $ref: '#/components/schemas/ListingSetting'
+    ListingSetting:
+      type: object
+      required:
+        - visibility
+      properties:
+        visibility:  
+          type: string
+          enum:
+            - PUBLIC
+            # PRIVATE will hide your listing, please do not use. Will be deprecated soon
+    ListingDetail:
+      type: object
+      properties:
+        description:
+          type: string
+        terms_of_service:
+          type: string
+        documentation_link:
+          type: string
+        privacy_policy_link:
+          type: string
+        support_link:
+          type: string
+        contact_email:
+          type: string
+        embedded_notebook_file_infos:
+          type: array
+          items:
+            $ref: '#/components/schemas/FileInfo'
+    ShareInfo:
+      type: object
+      required:
+        - name
+        - type
+      properties:
+        name:
+          type: string
+        type:
+          type: string
+          enum:
+            - sample
+            - full
+        metastore_id:
+          type: string
+          format: uuid
+          example: 5f8b08cf-79e4-4927-a66a-15aef64a4627
+    FileInfo:
+      type: object
+      required:
+        - marketplace_file_type
+        - file_parent
+        - mime_type
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: beaf391f-99a1-4db7-bc4c-7406f3da005c
+        marketplace_file_type:
+          type: string
+          enum:
+            - PROVIDER_ICON
+            - EMBEDDED_NOTEBOOK
+          example: EMBEDDED_NOTEBOOK
+        file_parent:
+          $ref: '#/components/schemas/FileParent'
+        mime_type:
+          type: string
+          description: The media type of the file to be uploaded. For notebooks this must be text/html and for icons this must be image/svg+xml, image/jpeg or image/png.
+          example: text/html
+        download_link:
+          type: string
+          example: https://marketplace-file-storage-prod.s3.us-east-1.amazonaws.com/EMBEDDED_NOTEBOOK/LISTING_beaf391f-99a1-4db7-bc4c-7406f3da005c/beaf391f-99a1-4db7-bc4c-7406f3da005c
+        display_name:
+          type: string
+          example: example-notebook
+          maxLength: 255
+    FileParent:
+      type: object
+      required:
+        - parent_id
+        - file_parent_type
+      properties:
+        parent_id:
+          type: string
+          format: uuid
+          description: The UUID of the parent resource, which may be a listing or a provider
+          example: beaf391f-99a1-4db7-bc4c-7406f3da005c
+        file_parent_type:
+          type: string
+          enum:
+            - LISTING
+            - PROVIDER
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearerAuth
+security:
+  - bearerAuth: []

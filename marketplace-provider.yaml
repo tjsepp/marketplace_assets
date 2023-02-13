@@ -1,0 +1,186 @@
+openapi: 3.0.0
+info:
+  title: Marketplace Provider API
+  description:
+    "The Marketplace Provider API allows you to manage the provider experience. It's hosted as part of the [Databricks Account API](https://docs.databricks.com/dev-tools/api/latest/account.html). Supported authentication mechanisms are: 
+    
+    * [Basic Authentication](https://docs.databricks.com/dev-tools/api/latest/account.html#section/Authentication) on AWS (https://accounts.cloud.databricks.com)
+    
+    * [AAD Authentication](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/api/latest/aad/) on Azure (https://accounts.azuredatabricks.net)
+    
+    * [Open ID Connect (OIDC) tokens](https://docs.gcp.databricks.com/dev-tools/api/latest/authentication-oidc.html) on GCP (https://accounts.gcp.databricks.com)
+     "
+  version: '1.0'
+
+servers:
+  - url: https://accounts.cloud.databricks.com
+  - url: https://accounts.azuredatabricks.net
+  - url: https://accounts.gcp.databricks.com
+
+paths:
+  /api/2.0/marketplace-provider/providers:
+    post:
+      tags:
+        - Provider profile
+      summary: Add a provider profile
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateProvider'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            text/plain:
+              schema:
+                type: string
+                format: uuid
+                example: 2a5b461b-5ec2-4de3-8e8f-f390bd7caf75
+        '400':
+          description: Invalid params supplied
+        '500':
+          description: Internal server error
+    get:
+      tags:
+        - Provider profile
+      summary: Get all provider profiles in the account
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ProviderInfo'
+        '500':
+          description: Internal server error
+
+  /api/2.0/marketplace-provider/providers/{provider_id}:
+    parameters:
+      - name: provider_id
+        in: path
+        required: true
+        schema:
+          type: string
+          format: uuid
+    get:
+      tags:
+        - Provider profile
+      summary: Get an existing provider profile
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProviderInfo'
+        '404':
+          description: Specified object not found
+        '500':
+          description: Internal server error
+    put:
+      tags:
+        - Provider profile
+      summary: Update an existing provider profile
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateProvider'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ProviderInfo'
+        '400':
+          description: Invalid params supplied
+        '404':
+          description: Specified object not found
+        '500':
+          description: Internal server error
+    delete:
+      tags:
+        - Provider profile
+      summary: Delete an existing provider profile
+      responses:
+        '200':
+          description: Successful operation
+        '404':
+          description: Specified object not found
+        '409':
+          description: Aborted due to conflict
+        '500':
+          description: Internal server error
+
+components:
+  schemas:
+    ProviderInfo:
+      type: object
+      required:
+        - name
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: beaf391f-99a1-4db7-bc4c-7406f3da005c
+        name:
+          type: string
+          maxLength: 255
+        description:
+          type: string
+        icon_file_path:
+          type: string
+          format: file_path
+          example: https://s3.us-west-2.amazonaws.com/<bucket-name>/icons/public/abb3d5fd-7111-1115-aafb-b2266977eb28
+        business_contact_email:
+          type: string
+          example: foo@provider.com
+          maxLength: 255
+        support_contact_email:
+          type: string
+          example: bar@provider.com
+          maxLength: 255
+        company_website_link:
+          type: string
+          example: www.abc.com
+          maxLength: 255
+        published_by:
+          type: string
+          example: data-agent
+          maxLength: 255
+        is_featured:
+          type: boolean
+          description: Whether this provider profile would be featured by Databricks Marketplace.
+          example: false
+    CreateProvider:
+      type: object
+      required:
+        - provider
+      properties:
+        provider:
+          $ref: '#/components/schemas/ProviderInfo'
+    UpdateProvider:
+      type: object
+      required:
+        - id
+        - provider
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: beaf391f-99a1-4db7-bc4c-7406f3da005c
+        provider:
+          $ref: '#/components/schemas/ProviderInfo'
+
+  securitySchemes:
+    basicAuth:
+      type: http
+      scheme: basic
+security:
+  - basicAuth: []

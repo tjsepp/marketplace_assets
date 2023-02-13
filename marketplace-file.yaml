@@ -1,0 +1,149 @@
+openapi: 3.0.0
+info:
+  title: Marketplace File API
+  description:
+    "The Marketplace File API allows you to manage the icons used to represent a provider and embedded notebooks that are part of a listing. The uploading and downloading of files is managed using presigned URLs returned by Create and Get operations. Supported authentication mechanisms are: 
+    
+    * [Personal Access Token Authentication](https://docs.databricks.com/dev-tools/api/latest/authentication.html) on AWS (https://accounts.cloud.databricks.com)
+    * Disclaimer: The APIs here are not officially maintained and might change without notice. 
+     "
+  version: '0.1'
+
+paths:
+  /api/2.0/marketplace-provider/files:
+    post:
+      tags:
+        - Files
+      summary: Add a file
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateFile'
+        required: true
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/CreateFileResponse'
+        '400':
+          description: Invalid params supplied
+        '500':
+          description: Internal server error
+
+  /api/2.0/marketplace-provider/files/{file_id}:
+    parameters:
+      - name: file_id
+        in: path
+        required: true
+        schema:
+          type: string
+          format: uuid
+    get:
+      tags:
+        - Files
+      summary: Get an existing file
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/FileInfo'
+        '404':
+          description: Specified object not found
+        '500':
+          description: Internal server error
+
+components:
+  schemas:
+    FileInfo:
+      type: object
+      required:
+        - marketplace_file_type
+        - file_parent
+        - mime_type
+      properties:
+        id:
+          type: string
+          format: uuid
+          example: beaf391f-99a1-4db7-bc4c-7406f3da005c
+        marketplace_file_type:
+          type: string
+          enum:
+            - PROVIDER_ICON
+            - EMBEDDED_NOTEBOOK
+          example: EMBEDDED_NOTEBOOK
+        file_parent:
+          $ref:  '#/components/schemas/FileParent'
+        mime_type:
+          type: string
+          description: The media type of the file to be uploaded. For notebooks this must be text/html and for icons this must be image/svg+xml, image/jpeg or image/png.
+          example: text/html
+        download_link:
+          type: string
+          example: https://marketplace-file-storage-prod.s3.us-east-1.amazonaws.com/EMBEDDED_NOTEBOOK/LISTING_beaf391f-99a1-4db7-bc4c-7406f3da005c/beaf391f-99a1-4db7-bc4c-7406f3da005c
+        display_name:
+          type: string
+          example: example-notebook
+          maxLength: 255
+    FileParent:
+      type: object
+      required:
+        - parent_id
+        - file_parent_type
+      properties:
+        parent_id:
+          type: string
+          format: uuid
+          description: The UUID of the parent resource, which may be a listing or a provider
+          example: beaf391f-99a1-4db7-bc4c-7406f3da005c
+        file_parent_type:
+          type: string
+          enum:
+            - LISTING
+            - PROVIDER
+    CreateFile:
+      type: object
+      required:
+        - marketplace_file_type
+        - file_parent
+        - mime_type
+      properties:
+        marketplace_file_type:
+          type: string
+          enum:
+            - PROVIDER_ICON
+            - EMBEDDED_NOTEBOOK
+          example: EMBEDDED_NOTEBOOK
+        file_parent:
+          $ref:  '#/components/schemas/FileParent'
+        mime_type:
+          type: string
+          description: The media type of the file to be uploaded. For notebooks this must be text/html and for icons this must be image/svg+xml, image/jpeg or image/png.
+          example: text/html
+        display_name:
+          type: string
+          example: example-notebook
+          maxLength: 255
+    CreateFileResponse:
+      type: object
+      required:
+        - id
+        - provider
+      properties:
+        upload_url:
+          type: string
+          example: https://marketplace-file-storage-prod.s3.us-east-1.amazonaws.com/EMBEDDED_NOTEBOOK/LISTING_beaf391f-99a1-4db7-bc4c-7406f3da005c/beaf391f-99a1-4db7-bc4c-7406f3da005c
+          description: This is a presigned URL which can be used as a PUT endpoint to upload a file. Note that when uploading, the header x-amz-server-side-encryption with value AES256 is required.
+        file_info:
+          $ref: '#/components/schemas/FileInfo'
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearerAuth
+security:
+  - bearerAuth: []
