@@ -118,14 +118,14 @@ components:
     Listing:
       type: object
       required:
-        - deploymentName
+        - deployment_name
         - summary
       properties:
         id:
           type: string
           format: uuid
           example: 2a5b461b-5ec2-4de3-8e8f-f390bd7caf75
-        deploymentName:
+        deployment_name:
           type: string
           example: your workspace URL identifier "dbc-df876f81-14df" in case of dbc-df876f81-14df.cloud.databricks.com
         summary:
@@ -157,17 +157,17 @@ components:
         listingType:
           type: string
           enum:
-            - standard
-            - personalized
+            - STANDARD
+            - PERSONALIZED
         subtitle:
           type: string
         status:
           type: string
           enum:
-            - draft
-            - pending
-            - published
-            - suspended
+            - DRAFT
+            - PENDING
+            - PUBLISHED
+            - SUSPENDED
         provider_id:
           type: string
           format: uuid
@@ -209,7 +209,6 @@ components:
           type: string
           enum:
             - PUBLIC
-            # PRIVATE will hide your listing, please do not use. Will be deprecated soon
     ListingDetail:
       type: object
       properties:
@@ -240,8 +239,8 @@ components:
         type:
           type: string
           enum:
-            - sample
-            - full
+            - SAMPLE
+            - FULL
         metastore_id:
           type: string
           format: uuid
