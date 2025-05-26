@@ -1,0 +1,1324 @@
+{
+  "currentPage": 1,
+  "currentPageSize": 17,
+  "totalPages": 1,
+  "totalResults": 17,
+  "results": [
+    {
+      "datasetId": 227,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/snl-global-banking-(227)",
+      "recentlyUpdated": false,
+      "datasetName": "SNL Global Banking",
+      "shortDescription": "The SNL Global Banking data delivers harmonized line items and key ratios for banks across the globe.",
+      "detailedDescription": "<p>SNL Global Banking is a curated selection of 1,000+ harmonized data points including 450+ key ratios to analyze over 60,000 financial institutions across the globe. Whether you’re managing a financial institution, analyzing one, or running an investment portfolio, this single API endpoint allows you to gain unique insight across the banking industry. This dataset provides banking-specific benchmarks, such as asset quality details, loan and deposit composition, and regulatory capital breakdown including the latest Basel III disclosures to allow for a comprehensive view of the sector.</p><p><strong>SNL Global Banking data:</strong></p><ul><li>Provides detailed financial insights into performance analysis, asset quality, deposit and loan composition</li><li>Captures the financial statement data that holding companies, banking subsidiaries, and credit unions must file with regulatory agencies</li><li>Showcases country-level banking data points aggregated on a sovereign level</li><li>Comes with supplemental Corporate data containing descriptive information on the bank or regulated entities, such as Company Description, Ownership Structure, etc.</li></ul><p><strong>Clients can leverage the SNL Global Banking offering for:</strong></p><ul><li>Risk Management - Create a comprehensive Financial Institution Credit Risk assessment</li><li>Portfolio Analysis - Evaluate asset quality details, loan and deposit composition, and bank capital breakdown including the latest Basel III disclosures</li><li>Peer Analysis - Use key ratios to compare institutions or against industry benchmarks</li></ul>",
+      "datasetAddedDate": "2021-04-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/SNL_Global_Banking_SampleData-485c783f-b0f0-44ae-a592-89ba040cc84d.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/SNL_Global_Banking_DataDictionary-321bcb73-faeb-478b-b928-3e04f3e3c40c.xlsx",
+      "currentVersionDate": "2023-04-26T00:00:00.000+00:00",
+      "enhancementDescription": "<p style=margin-left:0in;><span style=\"font-size: 11pt;font-family: Calibri;\">The SNL Global Banking offering replaces the SNL Bank Summary offering on XpressAPI and with an increased company and data point coverage.</span>&nbsp;&nbsp;</p>",
+      "size": 2,
+      "fieldCount": "100s",
+      "pointInTime": false,
+      "pointInTimeDescription": "",
+      "earliestRecord": 1989,
+      "earliestSignificantCoverage": 2005,
+      "dataSource": "Company Filings, FDIC, FFIEC, NCUA",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Financials"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Ad Hoc",
+      "dataLatency": "Intraday",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Desktop"
+      ],
+      "deliveryPlatform": [
+        "",
+        "S&P Capital IQ Pro",
+        "XpressAPI"
+      ],
+      "category": [
+        "",
+        "Industry Specific"
+      ],
+      "researchDocumentURL": [
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/The%20Big%20Picture%20%E2%80%94%202023%20Financial%20Institutions%20Industry%20Outlook.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/banking-on-alpha.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-global-market-intelligence-banks-rising-rate-environment-june-2017.pdf"
+      ],
+      "supportDocumentationURL": [
+        "https://www.support.marketplace.spglobal.com/en/datasets/snl/snlglobalbanking/snl-global-banking-user-guide",
+        "https://xpressapi.marketplace.spglobal.com/swagger/swagger.html?urls.primaryName=globalbanksummary"
+      ],
+      "coverageCount": "60,000"
+    },
+    {
+      "datasetId": 197,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/machine-readable-filings-(197)",
+      "associatedBundleURL": [
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/textual-data-suite-(1000004)"
+      ],
+      "recentlyUpdated": false,
+      "datasetName": "Machine Readable Filings",
+      "associatedBundleName": [
+        "",
+        "Textual Data Suite"
+      ],
+      "associatedBundleId": [
+        "",
+        "1000004"
+      ],
+      "shortDescription": "Global Machine Readable Filings provides parsed text for global annual and interim reports.",
+      "detailedDescription": "<p>The Global Machine Readable Filings dataset provides parsed text for global annual and interim reports, broken down into the various sections identified by the company, with extraneous information such as page numbers, images, and tables removed.</p><p>Leverage Global Machine Readable Filings to perform Natural Language Processing (NLP) on an entity's filings over time. Utilize the database to monitor strategic initiatives, justification of earnings, M&amp;A plans, tactical execution, ESG efforts, new products, and much more.</p><p>This dataset includes:</p><ul><li>Intraday updates with data going back to 2006</li><li>More than 4M filings across EDGAR and S&amp;P Global sourced Annual Reports, Quarterly, supplemental, and ESG documents</li><li>90K+ entities covered</li><li>Filings published in over 90 languages are available in a parsed, structured format&nbsp;</li></ul>",
+      "datasetAddedDate": "2021-03-29T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/globalmachinereadablefilings-sampledata-88bd491e-8eb6-4a33-94d2-0acc756b693c.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/global-machine-readable-filings-data-dictionary-88bd491e-8eb6-4a33-94d2-0acc756b693c.xlsx",
+      "currentVersionDate": "2024-08-21T00:00:00.000+00:00",
+      "enhancementDescription": "<p>Non-English Filings are now available via <span style=color: rgb(0,0,0);background-color: rgb(234,234,234);font-size: 18px;font-family: Akk Pro, Arial, sans-serif, \"MS Gothic;\">Xpressfeed™</span> and Snowflake.</p>",
+      "fieldCount": "10s",
+      "pointInTime": false,
+      "earliestRecord": 2006,
+      "earliestSignificantCoverage": 2006,
+      "dataSource": "10-K, 10-Q, 8-K, 6-K, 20-F, 40-F, S-1, Annual, Quarterly, Interim, and ESG (TCFD, Corporate Social Responsibility, Environmental, Corporate Governance)  Reports",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Intraday",
+      "dataLatency": "Intraday",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "API",
+        "Marketplace Workbench",
+        "Snowflake",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Alternative",
+        "Textual"
+      ],
+      "researchDocumentURL": [
+        "https://assets.marketplace.spglobal.com/SupportLinks/An_Insurance_Company_Uses_S&P_Capital_IQ_Workbench_to_Uncover_Insights_from_SEC_Filings-b5e50a50-a357-42ed-b88b-775961f950e5.pdf",
+        "https://pages.marketintelligence.spglobal.com/ESG-Documents-on-MRF-Infographic.html",
+        "https://pages.marketintelligence.spglobal.com/Machine-Readable-Filings-Infographic.html",
+        "https://pages.marketintelligence.spglobal.com/Speed-Reading-Company-Financials-Registration-May-2021.html",
+        "https://shorturl.at/wuPET",
+        "https://vimeo.com/646665826",
+        "https://www.spglobal.com/marketintelligence/en/documents/us-filings-no-news-is-good-news.pdf",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/leveraging-machine-readable-filings-to-uncover-valuable-investment-insights",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/qa-leveraging-natural-language-processing-to-speed-read-company-filings",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/hiding-in-plain-sight-risks-that-are-overlooked",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/study-global-company-lgbtq-plus-awareness-shows-uptick-room-for-growth"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Machine%20Readable%20Filings",
+        "https://www.support.marketplace.spglobal.com/en/datasets/alternative/filings/machine-readable-filings-user-guide"
+      ],
+      "coverageCount": "91,000+"
+    },
+    {
+      "datasetId": 184,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/trucost-carbon-earnings-at-risk-(184)",
+      "associatedBundleURL": [
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/sustainability-data-suite-(1000005)",
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/tcfd-analytics-suite-(1000006)"
+      ],
+      "recentlyUpdated": false,
+      "datasetName": "Trucost Carbon Earnings at Risk",
+      "associatedBundleName": [
+        "",
+        "Sustainability Data Suite",
+        "TCFD Analytics Suite"
+      ],
+      "associatedBundleId": [
+        "",
+        "1000005",
+        "1000006"
+      ],
+      "shortDescription": "Company-level exposure to carbon pricing risk under different future climate change scenarios.",
+      "detailedDescription": "<div>The Trucost Carbon Earnings at Risk dataset enables users to assess company-level exposure to current and future carbon pricing scenarios. Integral to this analysis is the calculation of the Unpriced Carbon Cost, which is defined as the difference between what a company pays for carbon today and what it may pay at a given future date based on its sector, operations, and under different climate change scenarios. </div><div>&nbsp;</div><div>You can utilize this data to stress test a company's current ability to absorb future carbon prices and understand potential earnings at risk from carbon pricing on a portfolio level and report to stakeholders on forward-looking estimates of financial risks in line with the recommendations of the Task Force on Climate-Related Financial Disclosures (TCFD).</div><div>&nbsp;</div><div>This dataset can help you:</div><div>&nbsp;</div><ul><li>Conduct scenario analysis and develop forward-looking estimates of financial risk or carbon pricing</li><li>Understand and assess the potential impact to a company's earnings today if the company has to pay a future price for their greenhouse gas emissions</li><li>Understand and manage risk associated to changes in carbon pricing</li><li>Examine the potential financial impact of carbon prices at a constituent and portfolio level under a range of scenarios</li></ul>",
+      "datasetAddedDate": "2020-08-14T00:00:00.000+00:00",
+      "vendorName": "Sustainable1",
+      "vendorDescription": "<div>At S&P Global Sustainable1, we serve as the central source for sustainability intelligence from S&P Global. Sustainable1 matches customers with the ESG products, insights and solutions from across S&P Global's divisions to help meet their unique needs. Our comprehensive coverage across global markets combined with in-depth ESG intelligence provides financial institutions, corporations and governments an unmatched level of clarity to navigate the transition to a sustainable future.</div>",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/trucostcarbonearningsatrisk-sampledata-4411b2db-d0c9-4081-a4dd-88344466a8e9.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/trucostcarbonearningsatrisk-datadictionary-4411b2db-d0c9-4081-a4dd-88344466a8e9-5464ef9a-646a-48ac-8d3e-bbe707ada2ef.xlsx",
+      "currentVersionDate": "2021-07-26T00:00:00.000+00:00",
+      "enhancementDescription": "<div>A new theme notebook, Unpriced Carbon Cost, is available on Workbench. The notebook leverages Trucost Carbon Earnings data to help users quantify risk and financial impact from climate change and carbon pricing on their portfolio.</div>",
+      "fieldCount": "10s",
+      "pointInTime": false,
+      "earliestRecord": 2017,
+      "earliestSignificantCoverage": 2017,
+      "dataSource": "Trucost analysis based on company reported data, climate models and other scientific data sources.",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Yearly",
+      "dataLatency": "Yearly",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "ClariFI®",
+        "FTP",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ Pro",
+        "XpressAPI",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Sustainability"
+      ],
+      "researchDocumentURL": [
+        "https://pages.marketintelligence.spglobal.com/Getting_Started_with_TCFD_Reporting_on_Marketplace_Workbench.html",
+        "https://pages.marketintelligence.spglobal.com/Optimizing-ESG-Analysis-for-Investment-Managers-Registration-September-2022.html?utm_source=marketplace&utm_medium=banner&utm_campaign=WLG-220929-PC-AMER-IM-RASS-CIQPro-ESG-ESG_IM_Reporting-1376829",
+        "https://pages.marketintelligence.spglobal.com/The-Power-of-Trucost-Earnings-at-Risk-Data-with-the-Marketplace-Workbench_Workbench.html",
+        "https://portal.s1.spglobal.com/survey/documents/SPG_S1_Carbon_Earnings_at_Risk_Methodology.pdf",
+        "https://www.spglobal.com/marketintelligence/en/campaigns/i-need-insights-to-manage-climate-risk",
+        "https://www.trucost.com/publication/tcfd-scenario-analysis-integrating-future-carbon-price-risk/"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Trucost%20Carbon%20Earnings%20at%20Risk",
+        "https://www.support.marketplace.spglobal.com/en/datasets/alternative/trucost_carbon_earnings_at_risk/trucost-carbon-earnings-at-risk-data-user-guide",
+        "https://xpressapi.marketplace.spglobal.com/swagger/swagger.html?urls.primaryName=trucostcear"
+      ],
+      "coverageCount": "15,000"
+    },
+    {
+      "datasetId": 36,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/textual-data-analytics-sentiment-scores-behavioral-metrics-(36)",
+      "associatedBundleURL": [
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/textual-data-suite-(1000004)"
+      ],
+      "recentlyUpdated": false,
+      "datasetName": "Textual Data Analytics: Sentiment Scores & Behavioral Metrics",
+      "associatedBundleName": [
+        "",
+        "Textual Data Suite"
+      ],
+      "associatedBundleId": [
+        "",
+        "1000004"
+      ],
+      "shortDescription": "Sentiment scores and behavioral metrics leveraging natural language processing from company transcripts.",
+      "detailedDescription": "<p>The Textual Data Analytics (TDA) dataset takes earnings calls transcripts one step further with sentiment and behavioral-based metrics rigorously researched and tested against frequently used quantitative strategies.</p><p>Implement signals from 800+ predictive and descriptive metrics derived from Natural Language Processing (NLP) in combination with data from professionals, ownership, and estimates datasets with differentiated and additive characteristics. Quickly assess the sentiment and transparency expressed on earnings calls of 11,600+ active companies to analyze and hone in on high-impact individual sections, speaker types, and individual components of calls or as building blocks to uncover additional signals.</p><p>Dataset includes:</p><ul><li>Bag-of-Words Sentiment metrics such as Net Positivity, Positivity-to-Negative, Positive Sentiment and Negative Sentiment as well as TF-IDF and Cosine Similarity weighted sentiment</li><li>Behavioral metrics such as Language Complexity, Analyst Favoritism, Numerical Transparency, Guidance References, Exogenous Factor References, Language Similarity and Timing of Numerical References</li><li>Measurement of Financial Performance Topic Identification and neighboring positive descriptors around market-moving topics such as \"Revenue\", \"Bottom-Line\", and \"EPS\"</li><li>Objective measures of Executive and overall earnings call performance in a time series or cross-section</li></ul><p><strong>[Awards]</strong></p><ul><li>2020 Data Management Insight Award for Best Proposition for AI &amp; Machine Learning</li></ul>",
+      "datasetAddedDate": "2020-01-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/S&P_Global_-_Textual_Data_Analytics_-_Sample_File-0a776720-ad7a-444b-94c5-481588c7a47a.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/DataDictory8-ca3e4797-b13a-48c9-bf21-b57ed752c670.xlsx",
+      "size": 21,
+      "fieldCount": "10s",
+      "pointInTime": true,
+      "pointInTimeDescription": "Each call transcript is updated multiple times by S&P Global. The scores calculated for each version are retained.",
+      "earliestRecord": 2004,
+      "earliestSignificantCoverage": 2008,
+      "dataSource": "Calls transcribed by S&P Global transcripts team.",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Variable",
+      "dataLatency": "Daily",
+      "deliveryChannel": [
+        "",
+        "Cloud",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "FTP",
+        "Marketplace Workbench",
+        "Snowflake",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Alternative",
+        "Textual"
+      ],
+      "researchDocumentURL": [
+        "https://github.com/S-P-Quantamental/Natural-Language-Processing-Part-I-Primer",
+        "https://pages.marketintelligence.spglobal.com/PC024063-WLG-230412-PC-GL-IM-DVA-SYN-TextualReviewEarning-1518630-2_01-Register.html",
+        "https://pages.marketintelligence.spglobal.com/Transcript-Sentiment-Scores-on-CIQ-Pro-Infographic.html",
+        "https://secure.signin.spglobal.com/app/spglobaliam_marketplaceworkbench_1/exk1nfrrr7svxSGxS1d8/sso/saml?RelayState=?hash=I25vdGVib29rLzQyMzE5NzgxNTIzNDI3NTM=",
+        "https://twimlai.com/nlp-for-equity-investing-with-frank-zhao/",
+        "https://vlab.stern.nyu.edu/static/Covid19Volatility_MultiregimeForecasting_VRI_NYU_20200615.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/mi-research-qr-nlp-part-ii-180912-new.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/nlp-iii-final-013020-10a.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-global-market-intelligence-nlp-primer-september-2018.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-global-market-intelligence-sentiment-signal-september-2018.pdf",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/6-things-to-watch-as-the-q3-23-earnings-season-unfolds",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/an-alternative-investment-team-harnesses-textual-data-analytics-to-find-new-sources-of-alpha",
+        "https://www.spglobal.com/market-intelligence/en/news-insights/research/analyzing-sentiment-in-quarterly-earnings-calls-q4-2024",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/study-global-company-lgbtq-plus-awareness-shows-uptick-room-for-growth",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/warranted-optimism-sentiment-vs-supply-chains",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/watch-your-language-executives-remarks-on-earnings-calls-impact-cds-spreads"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Textual%20Data%20Analytics%3A%20Sentiment%20Scores%20and%20Behavioral%20Metrics",
+        "https://www.support.marketplace.spglobal.com/en/datasets/alternative/transcripts/transcripts-user-guide"
+      ],
+      "coverageCount": "11,600+"
+    },
+    {
+      "datasetId": 46,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/trucost-environmental-(46)",
+      "associatedBundleURL": [
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/sustainability-data-suite-(1000005)",
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/tcfd-analytics-suite-(1000006)"
+      ],
+      "recentlyUpdated": false,
+      "datasetName": "Trucost Environmental",
+      "associatedBundleName": [
+        "",
+        "Sustainability Data Suite",
+        "TCFD Analytics Suite"
+      ],
+      "associatedBundleId": [
+        "",
+        "1000005",
+        "1000006"
+      ],
+      "shortDescription": "Complete environmental performance profiles for over 16,800 companies, representing 95% of global market capital.",
+      "detailedDescription": "<p>The Trucost Environmental data measures environmental impact across key dimensions for over 20,000 companies. This data can be used to assess environmental costs, identify, and manage environmental and climate risk as well as conduct peer and portfolio analysis from a climate and environmental perspective.</p><p>You can leverage Trucost Environmental data for ESG data integration, reporting on portfolio climate performance and exclusionary screening, and assessing portfolio for climate risk exposure.</p><p>This dataset provides:</p><ul><li>Carbon: Greenhouse gas (GHG) emissions</li><li>GHG Breakout</li><li>Land, water, air pollutants, and waste disposal</li><li>Natural resource and water use</li><li>Revenue generated from each sector of a company's operations</li><li>Fossil fuel reserves, power generation capacity and associated carbon metrics</li></ul>",
+      "datasetAddedDate": "2019-07-09T00:00:00.000+00:00",
+      "vendorName": "Sustainable1",
+      "vendorDescription": "<div>At S&P Global Sustainable1, we serve as the central source for sustainability intelligence from S&P Global. Sustainable1 matches customers with the ESG products, insights and solutions from across S&P Global's divisions to help meet their unique needs. Our comprehensive coverage across global markets combined with in-depth ESG intelligence provides financial institutions, corporations and governments an unmatched level of clarity to navigate the transition to a sustainable future.</div>",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/trucostenvironmental-sampledata-ff528270-76db-489e-9239-3183dc96544a.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/trucost_environmental_dictionary-be1e148e-3e5f-484a-a60e-ac8465b1e6dc.xlsx",
+      "currentVersionDate": "2025-02-11T00:00:00.000+00:00",
+      "enhancementDescription": "<p>Trucost is expanding its activities and enhancing sustainability metrics for improved risk identification and analysis. Please contact us <a href=mailto:esgclientengagement@spglobal.com target=\"_blank\">here</a> or your account team with questions.</p>",
+      "size": 1,
+      "fieldCount": "10s",
+      "pointInTime": false,
+      "earliestRecord": 2002,
+      "earliestSignificantCoverage": 2016,
+      "dataSource": "The data comes from a variety of sources, including company annual reports, direct disclosures, scientific literature, and an array of national, international, and industry databases, industry “top-down” data, as well as sector-specific “bottom-up” data.",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Daily",
+      "dataLatency": "Daily",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "ClariFI®",
+        "FTP",
+        "Marketplace Extract",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ Pro",
+        "XpressAPI",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Sustainability"
+      ],
+      "researchDocumentURL": [
+        "https://assets.marketplace.spglobal.com/SupportLinks/S1_Scope3Downstream_ReleaseNotes_November2023-fc93a801-8f5e-48d2-bf16-f5e9997d73a0.pdf",
+        "https://assets.marketplace.spglobal.com/SupportLinks/S&P_Global_Trucost_Data_Quality_Processes_&_Procedures-497d06da-6bfb-477e-a35b-169cb856ab5a.pdf",
+        "https://assets.marketplace.spglobal.com/SupportLinks/Trucost_Environmental_Methodology_FAQ_document-4e47c3d4-d9d1-462b-9f2c-cd4c7530daa7.pdf",
+        "https://bit.ly/3LDsZHG",
+        "https://pages.marketintelligence.spglobal.com/Getting_Started_with_TCFD_Reporting_on_Marketplace_Workbench.html",
+        "https://pages.marketintelligence.spglobal.com/Optimizing-ESG-Analysis-for-Investment-Managers-Registration-September-2022.html?utm_source=marketplace&utm_medium=banner&utm_campaign=WLG-220929-PC-AMER-IM-RASS-CIQPro-ESG-ESG_IM_Reporting-1376829",
+        "https://spgi-mkto.spglobal.com/rs/491-VNG-790/images/Trucost%20Environmental%20As%20Reported%20Decoupling.pdf?version=0",
+        "https://spgi-mkto.spglobal.com/rs/491-VNG-790/images/Trucost%20Environmental%20Model%203.0.pdf?version=0",
+        "https://www.spglobal.com/marketintelligence/en/campaigns/see-what-matters",
+        "https://www.spglobal.com/marketintelligence/en/documents/the-trucost-of-climate-investing.pdf",
+        "https://www.spglobal.com/marketintelligence/en/events/webinars/streamlining-analytics-for-tcfd-reporting",
+        "https://www.spglobal.com/marketintelligence/en/events/webinars/the-future-of-alternative-data-part-2-trucost-environmental-data",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/accessing-esg-data-via-xpressfeed",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/qa-streamlining-analytics-for-tcfd-reporting",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/doing-the-right-thing-does-not-have-to-come-at-a-carbon-cost"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Trucost%20Environmental",
+        "https://www.support.marketplace.spglobal.com/en/datasets/alternative/trucost_environmental/trucost-environmental-data-user-guide#sec0",
+        "https://xpressapi.marketplace.spglobal.com/swagger/swagger.html?urls.primaryName=trucostenvironmental"
+      ],
+      "coverageCount": "20,000"
+    },
+    {
+      "datasetId": 39,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/snl-ratewatch-depository-rates-fees-(39)",
+      "recentlyUpdated": true,
+      "datasetName": "SNL RateWatch Depository Rates & Fees",
+      "shortDescription": "Provides a comprehensive view of banking product offerings by leveraging robust interest rate and fee data from RateWatch and SNL Financial.",
+      "detailedDescription": "<p>The SNL RateWatch Depository Rates &amp; Fees dataset provides a comprehensive view of banking product offerings by leveraging robust interest rate and fee data from RateWatch and SNL Financial. It covers all banks, thrifts, and credit unions with more than $1B in total assets and 75% of all remaining institutions regardless of size.<br><br>Firms can use this dataset for market analysis and peer benchmarking by comparing rates across market and regions. It supports strategic pricing decisions by helping product managers identify trends in product offerings. Additionally, firms can perform Net Interest Margin (NIM) analysis by combining deposit and lending rates with balance sheet data. The dataset also helps in assessing the impact of Federal Reserve monetary policy on product rates, including the lagged impact of monetary policy changes.</p><p>This dataset includes:</p><ul><li>Over 10,000 banking products tracked at regional and branch levels, covering Time Deposits, Auto Loans, Home Equity, and Mortgages across Savings, Consumer, Fees, Mortgage, Jumbo, Credit Card, and Business categories.</li><li>Aggregated interest rates, Annual Percentage Yield (APY), and Annual Percentage Rates (APR) across State, County, Federal Market, Metropolitan Statistical Area, and Country (U.S.) levels, enabling efficient market-level analysis.</li></ul>",
+      "datasetAddedDate": "2017-10-30T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/Ratewatch_-_Marketplace_Sample_Data-a53831f0-e2e0-49b5-a849-c9e8e069f9e4.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/Ratewatch_-_Marketplace_Dictionary-7e7402e6-1949-444c-a869-4165456f62d5.xlsx",
+      "currentVersionDate": "2025-04-08T00:00:00.000+00:00",
+      "enhancementDescription": "<p>SNL RateWatch Depository Rates and Fees now available on  <span style=color: rgb(0,0,0);background-color: rgb(234,234,234);font-size: 18px;font-family: Akk Pro, Arial, sans-serif, \"MS Gothic;\">Xpressfeed<sup>™</sup></span>. Combined offering for SNL Financial and RateWatch capturing more history and a larger number of products with additional data points.</p>",
+      "size": 150,
+      "fieldCount": "10s",
+      "pointInTime": false,
+      "earliestRecord": 2000,
+      "earliestSignificantCoverage": 2001,
+      "dataSource": "",
+      "primaryEntityType": "Rate",
+      "industryCoverage": [
+        "",
+        "Financials"
+      ],
+      "geographyCoverage": [
+        "",
+        "United States"
+      ],
+      "reportingFrequency": "Ad Hoc",
+      "dataLatency": "Daily",
+      "deliveryChannel": [
+        "",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Economic Indicators",
+        "Industry Specific"
+      ],
+      "researchDocumentURL": [
+        "https://pages.marketintelligence.spglobal.com/How-will-community-banks-fare-amid-a-challenging-interest-rate-environment-Registration-August-2019.html?utm_source=Marketplace",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/The%20Big%20Picture%20%E2%80%94%202023%20Financial%20Institutions%20Industry%20Outlook.pdf",
+        "https://pages.marketintelligence.spglobal.com/Unlocking-Banking-Insights-Diving-into-Data-Solutions-and-Industry-Trends-Registration-September-2023.html?utm_medium=referral&utm_source=website&utm_campaign=Marketplace",
+        "https://spg-marketplace-workbench-research.cloud.databricks.com/#notebook/2077888234734659/",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/a-marketing-company-hones-its-own-growth-strategy-with-detailed-bank-data",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/54681527",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/deposit-costs-stay-sticky-despite-fed-rate-cuts",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/depositories-banking-on-rate-cuts-but-growing-number-marketing-high-rate-cds"
+      ],
+      "supportDocumentationURL": [
+        "https://www.support.marketplace.spglobal.com/en/datasets/snl/snldepository/snl-ratewatch-depository-rates-and-fees-user-guide"
+      ],
+      "coverageCount": "10,000"
+    },
+    {
+      "datasetId": 45,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/machine-readable-transcripts-(45)",
+      "associatedBundleURL": [
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/textual-data-suite-(1000004)"
+      ],
+      "recentlyUpdated": false,
+      "datasetName": "Machine Readable Transcripts",
+      "associatedBundleName": [
+        "",
+        "Textual Data Suite"
+      ],
+      "associatedBundleId": [
+        "",
+        "1000004"
+      ],
+      "shortDescription": "Textual transcripts data from earnings calls delivered in a machine-readable format with metadata tagging.",
+      "detailedDescription": "<p>The Machine Readable Transcripts dataset aggregates data from earnings calls delivered in a machine-readable format for Natural Language Processing (NLP) applications with metadata tagging.</p><p>Leverage Machine Readable Transcripts to keep track of event information for specific companies including dates, times, dial-in and replay numbers and investor relations contact information. Easily combine data from earnings, M&amp;A, guidance, shareholder, company conference presentations and special calls with traditional datasets to develop proprietary analytics.</p><p>With this dataset you can rely on:</p><ul><li>Seamless linking between the Speaker ID to the S&amp;P Global Estimates and Professionals database to help identify sell-side analysts' revisions.</li><li>Intraday updates via a feed or streaming XML messages for details on calls scheduled for transcription.</li><li>13,600+ entities under coverage with history going back up to 2004.</li></ul><p>The dataset leverages the power of Kensho NERD to identify company names and aliases mentioned during earnings calls and specifies the mention location in the transcript.</p><p><strong>[Awards]</strong></p><ul><li>2019 Data Management Insight Award for Best Proposition for AI, Machine Learning, Data Science</li><li>2020 Data Management Insight Award for Best Proposition for AI &amp; Machine Learning</li></ul>",
+      "datasetAddedDate": "2017-09-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/transcripts-sampledata-41dc0208-a6d0-4663-8c3d-d5378a5866f7.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/transcripts-datadictionary-41dc0208-a6d0-4663-8c3d-d5378a5866f7.xlsx",
+      "currentVersionDate": "2024-06-27T00:00:00.000+00:00",
+      "enhancementDescription": "<p>Machine Readable Transcripts on Physical Document Service is now available via S&amp;P Capital IQ API.</p>",
+      "size": 54,
+      "fieldCount": "10s",
+      "pointInTime": true,
+      "pointInTimeDescription": "Transcript Date timestamp for all versions.",
+      "earliestRecord": 2004,
+      "earliestSignificantCoverage": 2008,
+      "dataSource": "Publicly hosted corporate events and calls.",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Variable",
+      "dataLatency": "Near Real Time",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "API",
+        "ClariFI®",
+        "FTP",
+        "Marketplace Extract",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Alternative",
+        "Textual"
+      ],
+      "researchDocumentURL": [
+        "https://github.com/S-P-Quantamental/Natural-Language-Processing-Part-I-Primer",
+        "https://twimlai.com/nlp-for-equity-investing-with-frank-zhao/",
+        "https://www.spglobal.com/marketintelligence/en/documents/mi-research-qr-nlp-part-ii-180912-new.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/nlp-iii-final-013020-10a.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-global-market-intelligence-nlp-primer-september-2018.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-global-market-intelligence-sentiment-signal-september-2018.pdf",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/6-things-to-watch-as-the-q3-23-earnings-season-unfolds",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/machines-signal-q4-22-guidance-not-falling-off-a-cliff-an-in-depth-textual-review-of-q3-22-earnings-call-transcripts",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/study-global-company-lgbtq-plus-awareness-shows-uptick-room-for-growth",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/watch-your-language-executives-remarks-on-earnings-calls-impact-cds-spreads"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Machine%20Readable%20Transcripts",
+        "https://www.support.marketplace.spglobal.com/en/datasets/alternative/transcripts/transcripts-user-guide"
+      ],
+      "coverageCount": "13,600+"
+    },
+    {
+      "datasetId": 37,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/snl-financial-institutions-regulatory-data-(37)",
+      "recentlyUpdated": false,
+      "datasetName": "SNL Financial Institutions Regulatory Data",
+      "shortDescription": "Financial statement filings from banks and credit unions.",
+      "detailedDescription": "<p>The SNL Financial Institutions Regulatory dataset will give you access to bank, credit union, and financial service companies' financial statement filings. With over 40,000 operating companies and over 100,000 active and historical entities filed within US, Mexico, and Colombia regulatory agencies, you will be able to comprehensively assess their financial standing relative to their peers.</p><p>Our coverage of key metrics makes it easy to make peer comparisons, assess loan mix, fine-tune your own performance and plan competitive strategies. Our data is timely, comprehensive and easy to use which allows you to track metrics critical to a bank’s success such as credit quality, credit concentration exposure and liquidity.</p><p>This dataset includes As-Reported data from:</p><ul><li>Call Report Financials - 031, 041, 051</li><li>Holding Companies Financials - Y-9C</li><li>Large/Small Parent Financials - Y-9LP and Y-9SP</li><li>Credit Union and Corporate Credit Union Financials - 5300, 5310</li><li>Specialized Financial Services - Form ADV, X-19</li></ul>",
+      "datasetAddedDate": "2017-04-24T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/SNL_Financial_Institutions_Regulatory_Data-SampleData-8bc0551a-2c7e-4812-9903-48f48789f562.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/SNL_Financial_Institutions_Regulatory_Data-DataDictionary-c6a62890-e1a6-4fb5-b8c1-8a6db69802d1.xlsx",
+      "size": 480,
+      "fieldCount": "10,000s",
+      "pointInTime": true,
+      "pointInTimeDescription": "Every instance is stored with a corresponding restatement number",
+      "earliestRecord": 1990,
+      "earliestSignificantCoverage": 1990,
+      "dataSource": "Captures financial statement filings from US regulatory agencies like the SEC, Federal Reserve, FDIC, OCC, and NCUA. Mexican regulator Comision Nacional Bancaria y de Valores (CNBV), and Colombian regulator Superintendencia Financiera de Colombia (SFC)",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Financials"
+      ],
+      "geographyCoverage": [
+        "",
+        "Latin America and Caribbean",
+        "United States and Canada"
+      ],
+      "reportingFrequency": "Ad Hoc",
+      "dataLatency": "Daily",
+      "deliveryChannel": [
+        "",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "ClariFI®",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Industry Specific"
+      ],
+      "researchDocumentURL": [
+        "https://pages.marketintelligence.spglobal.com/CECL-Plus-Webinar-Registration-November-2019.html",
+        "https://pages.marketintelligence.spglobal.com/FIG-Notebook-Video-Demo-Request.html",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/SPGlobal_Export_11-8-2023_20028d82-a80b-48eb-9cbd-1fc3f7702968.pdf?version=0",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/SPGlobal_Export_11-8-2023_489b2c53-ab6e-4a03-87b8-722b9e134171.pdf?version=0",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/SPGlobal_Export_11-8-2023_65602869-de12-4a70-9d1d-8c08f2cfbba2.pdf?version=0",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/SPGlobal_Export_11-8-2023_c73d9ae4-3057-4a94-9490-202a2d7539ce.pdf?version=0",
+        "https://pages.marketintelligence.spglobal.com/Unlocking-Banking-Insights-Diving-into-Data-Solutions-and-Industry-Trends-Registration-September-2023.html?utm_medium=referral&utm_source=website&utm_campaign=Marketplace",
+        "https://spg-marketplace-workbench-research.cloud.databricks.com/editor/notebooks/2736697687518416?o=7655476408017665#command/409278143986224",
+        "https://spg-marketplace-workbench-research.cloud.databricks.com/?o=7655476408017665#notebook/2991315718330895/command/9611492878102",
+        "https://www.spglobal.com/marketintelligence/en/documents/banking-on-alpha.pdf",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/a-marketing-company-hones-its-own-growth-strategy-with-detailed-bank-data",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/bank-stocks-fall-as-svb-financial-failure-intensifies-street-s-funding-worries-74724345",
+        "https://www.spglobal.com/market-intelligence/en/news-insights/research/banking-on-industry-data-navigating-the-ebbs-and-flows-of-the-banking-sector",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/commercial-real-estate-maturity-wall-950b-in-2024-peaks-in-2027",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/community-banks-well-positioned-to-absorb-capital-hit-from-cecl"
+      ],
+      "supportDocumentationURL": [
+        "https://www.support.marketplace.spglobal.com/en/datasets/snl/snlregulatory/snl-regulatory-user-guide#sec0"
+      ],
+      "coverageCount": "100,000"
+    },
+    {
+      "datasetId": 40,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/snl-sector-financials-(40)",
+      "recentlyUpdated": false,
+      "datasetName": "SNL Sector Financials",
+      "shortDescription": "Detailed current and historical financial data on the global Financial Institutions (FIG), Metals & Mining, Energy, Real Estate and Media sectors.",
+      "detailedDescription": "<p>The SNL Sector Financials dataset covers industry-specific GAAP and IFRS as-reported financials for over 25,000 current and historical companies across the globe. It allows for a deep understanding of what’s driving markets and surface risks and opportunities for your business. Rely on our decades of financial experience in understanding sector-specific entities and the markets they serve. There are 5 key sectors with over 6,000 detailed industry data points across all packages:</p><p><strong>Financial Institutions (FIG)</strong></p><p>A combination of the banking and insurance sector, this covers financial data for various financial institutions across the globe. Get details on Assets, Deposits, Loans, and Regulatory Capital and Performance coverage on over 16,000 Banking Institutions and Investment, Underwriting, Solvency and Distribution Coverage of over 2,000 Insurance companies.</p><p><strong>Real Estate</strong></p><p>Debt and lease, portfolio analysis and same-store performance coverage of over 1,800 REITs, REOCS and Listed Property Companies</p><p><strong>Metals &amp; Mining</strong></p><p>Equipment, property and capitalized exploration coverage of around 4,000 Metals &amp; Mining companies around the world.</p><p><strong>Energy</strong></p><p>Revenue, Volume, Electric Sales, Transport and Storage by class coverage of over 600 North American Power, Gas Utility and Midstream Energy companies.</p><p><strong>Technology, Media, and Telecommunications</strong></p><p>Assess financials with detailed Media and Entertainment revenue of over 500 Media companies. Supplement your financial assessment with Operating Metrics of TV, Radio, Wireless, Cable and Satellite.&nbsp;</p>",
+      "datasetAddedDate": "2016-09-30T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/SNL_Sector_Financials-SampleData-8cdb0a83-9b87-4598-bd14-0959e4a831f0.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/SNL_Sector_Financials-DataDictionary-136307f1-ab97-4e12-8e16-0357100ccbf8.xlsx",
+      "size": 30,
+      "fieldCount": "1,000s",
+      "pointInTime": false,
+      "earliestRecord": 1985,
+      "earliestSignificantCoverage": 2005,
+      "dataSource": "SNL Financial",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Energy and Utilities",
+        "Financials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Ad Hoc",
+      "dataLatency": "Daily",
+      "deliveryChannel": [
+        "",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "FTP",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Company Financials",
+        "Industry Specific"
+      ],
+      "researchDocumentURL": [
+        "https://bit.ly/49Jmo8R",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/SPGlobal_Export_11-8-2023_0a522dfd-251c-4a7e-988b-a6e1bb57d6e0.pdf?version=0",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/SPGlobal_Export_11-8-2023_68563267-e72f-4672-b918-fd82e984f40a.pdf?version=0",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/SPGlobal_Export_11-8-2023_b1413e00-10b4-4a29-b640-62e9f04a6795.pdf?version=0",
+        "https://pages.marketintelligence.spglobal.com/Unlocking-Banking-Insights-Diving-into-Data-Solutions-and-Industry-Trends-Registration-September-2023.html?utm_medium=referral&utm_source=website&utm_campaign=Marketplace",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4224726",
+        "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4234383",
+        "https://spg-marketplace-workbench-research.cloud.databricks.com/editor/notebooks/2736697687518416?o=7655476408017665#command/409278143986224",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-global-market-intelligence-banks-rising-rate-environment-june-2017.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-global-market-intelligence-international-small-cap-investing-february-2019.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-global-market-intelligence-snl-bank-fundamental-data-april-2017.pdf",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/a-marketing-company-hones-its-own-growth-strategy-with-detailed-bank-data",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/bank-stocks-fall-as-svb-financial-failure-intensifies-street-s-funding-worries-74724345",
+        "https://www.spglobal.com/market-intelligence/en/news-insights/research/banking-on-industry-data-navigating-the-ebbs-and-flows-of-the-banking-sector"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=SNL%20Fundamentals",
+        "https://www.support.marketplace.spglobal.com/en/datasets/snl/snlfundamental/snl-fundamental-user-guide"
+      ],
+      "coverageCount": "25,000+"
+    },
+    {
+      "datasetId": 23,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/professionals-(23)",
+      "recentlyUpdated": false,
+      "datasetName": "Professionals",
+      "shortDescription": "The People Intelligence package offers coverage of over 30 million professionals including private and public company executives, board members, and investment professionals, globally.",
+      "detailedDescription": "<p>Access the S&amp;P Capital IQ Professionals datasets to profile professionals with current and prior board/company and research affiliations biographies, and explore standardized job functions, titles, education, compensation, options holdings, and full committee memberships.</p><p>Implement the S&amp;P Capital IQ Professional data to gain insight on an individual's career history and professional relationships with current and prior information integrated into profiles of public and private company executives, board members, and investment professionals, globally.</p><p>This dataset includes:</p><ul><li>Individual profiles with biography, contact data, education, compensation, affiliations, and corporate board membership information.</li><li>Job titles to identify key decision makers</li><li>More than 30 million professionals, compensation history going back to 1992 for public companies</li></ul>",
+      "datasetAddedDate": "2012-07-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/professionals-sampledata-08298f15-3b0d-461c-bbcd-d010fa6c6477.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/professionals-datadictionary-08298f15-3b0d-461c-bbcd-d010fa6c6477.xlsx",
+      "size": 30,
+      "pointInTime": false,
+      "earliestRecord": 1992,
+      "earliestSignificantCoverage": 2003,
+      "dataSource": "Publically available documents (e.g. company filings, annual reports, press releases)",
+      "primaryEntityType": "People",
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Daily",
+      "dataLatency": "Daily",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "API",
+        "Marketplace Extract",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Company Intelligence"
+      ],
+      "researchDocumentURL": [
+        "https://assets.marketplace.spglobal.com/SupportLinks/breaking-boundaries-women-poised-for-milestone-achievement-in-parity-amid-otherwise-bleak-outlook-9e4b013c-5df6-4138-a3d3-d2a2eeda6664.pdf",
+        "https://pages.marketintelligence.spglobal.com/Glass-Floors-and-Ceilings-Why-Closing-the-Median-Wage-Gap-Isnot-Fair-Registration-November-2021.html?utm_source=marketplace&utm_medium=website&utm_campaign=WLG-211109-PC-GL-CT-DF-DMS-QRQ4Webinar-1055769",
+        "https://spg-marketplace-workbench-research.cloud.databricks.com/?o=7655476408017665#notebook/4157375413571244/command/3107685631509285",
+        "https://www.spglobal.com/marketintelligence/en/documents/changepays_finalwhitepaper.pdf",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/elusive-parity-key-gender-parity-metric-falls-for-first-time-in-2-decades",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/glass-floors-and-ceilings-why-closing-the-median-wage-gap-isnt-fair",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/sweet-spots-in-the-csuite-executive-best-practices-for-shareholder-friendly-firms",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/the-board-matrix-the-esg-value-of-well-connected-directors"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Professionals",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/professionals/professionals-user-guide"
+      ],
+      "coverageCount": "30,500,000"
+    },
+    {
+      "datasetId": 6,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/company-intelligence-(6)",
+      "recentlyUpdated": false,
+      "datasetName": "Company Intelligence",
+      "shortDescription": "Profiles of public and private firms worldwide including company contact information, competitors, financial auditors and summary or detailed-level business descriptions.",
+      "detailedDescription": "<p>The Company Intelligence dataset contains a robust offering of qualitative data including a time series of company auditors, competitors' information, alternate and foreign language company names, key documents and filings, alternate address information, and more. The dataset can be used in conjunction with S&amp;P Capital IQ Financials or Compustat to provide additional company insight for competitive analysis.</p><p>This dataset provides:</p><ul><li>Short single paragraph descriptions and long, detailed profile descriptions for companies</li><li>All known competitors a company currently has, including the source of where the competitor was identified</li><li>Additional company business addresses globally, including the headquarters address</li><li>The history of financial auditors a company has used for their annual financial reports</li><li>Alternate names a company might be commonly identified as (e.g., Hewlett-Packard Company is commonly known as HP), inclusive of all known historical names if the company's name has changed over time</li><li>A listing of all known current (and prior) products or services</li><li>Granular taxonomy to gain more insights into a company's operation</li></ul>",
+      "datasetAddedDate": "2012-05-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/companyintelligence-sampledata-7b00783e-0609-40c8-89a0-b95e14490f0e.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/companyintelligence-datadictionary-7b00783e-0609-40c8-89a0-b95e14490f0e.xlsx",
+      "currentVersionDate": "2022-04-09T00:00:00.000+00:00",
+      "enhancementDescription": "<div><strong>Topic Tags Now Available: </strong>Topic Tags, built based on data science models, provide niche industry classifications allowing for additional insights into a company's operations.</div>",
+      "size": 3,
+      "fieldCount": "10s",
+      "pointInTime": false,
+      "dataSource": "Publicly available documents, company filings, annual reports, press releases.",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Variable",
+      "dataLatency": "Daily",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "API",
+        "API Drive",
+        "CIQ Desktop",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Company Intelligence"
+      ],
+      "supportDocumentationURL": [
+        "https://support.marketplace.spglobal.com/en/datasets/ciq/topictags/topic-tags-user-guide",
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Company%20Intelligence",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/companyintelligence/company-intelligence-user-guide",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/products/product-user-guide"
+      ],
+      "coverageCount": "4,000,000+"
+    },
+    {
+      "datasetId": 11,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/global-events-(11)",
+      "recentlyUpdated": false,
+      "datasetName": "Global Events",
+      "shortDescription": "Past and future events calendar including earnings, M&A, shareholder meetings and investor conferences.",
+      "detailedDescription": "<p>The Global Events dataset provides details on upcoming and past corporate events such as earnings calls, shareholder/analyst meetings, expected earnings release dates and more. With deep history back to 2003, clients can leverage this dataset to derive signals and support trading models across asset classes, trading styles and frequencies. This dataset also helps in research &amp; analysis, risk management &amp; compliance, and trade surveillance workflows.</p><p>Some of the key features of the Global Events dataset include:</p><ul><li>Collection of 1,000+ Events daily</li><li>Delivery of the data to users on an intraday basis</li><li>Dataset collection from over 20,000 news sources</li><li>Addition of historical events along with the future events</li></ul>",
+      "datasetAddedDate": "2012-01-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/GlobalEventsPlusSampleDataDownload-6d14c147-0161-45f9-b1f3-116c9402cd8f.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/GlobalEventsDataDictionaryDownload-5b4c7896-738d-407c-9cce-94966bddfd8d.xlsx",
+      "currentVersionDate": "2024-06-20T00:00:00.000+00:00",
+      "enhancementDescription": "<p>Global Events Plus dataset is now available on Xpressfeed™.</p>",
+      "size": 11,
+      "fieldCount": "100s",
+      "pointInTime": true,
+      "pointInTimeDescription": "Point in Time history starting August 2018 onwards",
+      "earliestRecord": 1992,
+      "earliestSignificantCoverage": 2002,
+      "dataSource": "Regulatory filings, corporate websites, documents from news vendors and call transcripts since April 2009",
+      "primaryEntityType": "Other",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Intraday",
+      "dataLatency": "Daily",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "ClariFI®",
+        "Event Driven Alerts",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Company Intelligence"
+      ],
+      "researchDocumentURL": [
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/sweet-spots-in-the-csuite-executive-best-practices-for-shareholder-friendly-firms"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Global%20Events",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/events/events-user-guide",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/globaleventsplus/global-events-plus-user-guide"
+      ],
+      "coverageCount": "3,900,000"
+    },
+    {
+      "datasetId": 44,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/transactions-(44)",
+      "recentlyUpdated": false,
+      "datasetName": "Transactions",
+      "shortDescription": "Transactions for all publicly announced M&As, buybacks/repurchases, bankruptcies, spin-offs/split-offs, private placements, public offerings and shelf registrations.",
+      "detailedDescription": "<p>The Transactions dataset provides the entire lifecycle of primary and secondary market business transactions, across public offerings, private placements, mergers &amp; acquisitions, buybacks/repurchases, corporate restructuring, bankruptcies, spin-offs, and split-offs. The transactions database covers more than two million high-quality transactions across the globe, providing you with essential intelligence to identify new opportunities, assess potential deals, perform deal comparisons, and maximize exit strategies.</p><p>You can leverage the Transactions dataset to confirm a private company's pre and post-money valuation, use the valuation details of an M&amp;A transaction for a merger arbitrage model or get details on stock repurchased in a particular period.</p><p>With a global coverage of approximately 2 million transactions, collected within 24 hours of disclosure, use this dataset to get information on:</p><ul><li>M&amp;A Deal Size, Termination Fee, Target Premium, Ratios, Advisors</li><li>Buyback Size, Remaining Authorization, Number of Shares</li><li>Public Offerings, Pre and Post-IPO Ownership, Overallotment, Lock Up</li><li>Rounds of Funding Deal Size, Pre and Post-Money Valuation, Round Type</li></ul>",
+      "datasetAddedDate": "2011-05-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/Sample_Data_V2-65d41560-2591-440c-adca-2634e3b41287.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/transactions-datadictionary_(1)-ef82daf0-4cd4-44a1-8ced-2c8bfee1a5a5.xlsx",
+      "currentVersionDate": "2025-02-18T00:00:00.000+00:00",
+      "enhancementDescription": "<p>New Transactions data packages are now available via Xpressfeed™. This release includes 9 data packages which impact our Transactions, Transactions M&amp;A and Transactions Offerings datasets.</p>",
+      "size": 12,
+      "fieldCount": "100s",
+      "pointInTime": true,
+      "pointInTimeDescription": "Consideration details and transaction value data",
+      "earliestRecord": 1950,
+      "earliestSignificantCoverage": 1998,
+      "dataSource": "Regulatory filings and documents from news vendors",
+      "primaryEntityType": "Deal",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Intraday",
+      "dataLatency": "Daily",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "API",
+        "FTP",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Company Intelligence"
+      ],
+      "researchDocumentURL": [
+        "https://gateway.on24.com/wcc/eh/863544/lp/4460934/02132024-sp-global-marketplace-workbench-workshop-private-markets-deep-dive?partnerref=ondemandprivequity",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/BigPicture_MA_1022_FINAL.pdf",
+        "https://spg-marketplace-workbench-research.cloud.databricks.com/?o=7655476408017665#notebook/2121957808805115/command/2121957808805116",
+        "https://www.spglobal.com/marketintelligence/en/campaigns/mergers-acquisitions-analysis#infographics",
+        "https://www.spglobal.com/marketintelligence/en/documents/buying_outperformance_do_share_repurchase_announcements_lead_to_higher_returns.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/mergers-and-acquisitions-the-good-the-bad-and-the-ugly-august-2016.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/riding-the-coattails-of-activist-investors-yields-short-and-long-term-outperformance.pdf",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/blog/equity-spac-issuance-drop-again-h1-2022-figures-down-year-over-year",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/deal-sourcing-a-data-science-approach-impact-of-financial-characteristics-on-acquisition-likelihood",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/sweet-spots-in-the-csuite-executive-best-practices-for-shareholder-friendly-firms"
+      ],
+      "supportDocumentationURL": [
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/ChartIQ_Transactions_Dataset_Integration.pdf?version=0",
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Transactions",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/transactions/mi-transactions-rounds-of-funding/rounds-of-funding-user-guide",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/transactions/transactionsmanda/transactions-ma-user-guide",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/transactions/transactionsofferings/transactions-offerings-user-guide",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/transactions/transactions-user-guide"
+      ],
+      "coverageCount": "2,000,000"
+    },
+    {
+      "datasetId": 4,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/business-entity-cross-reference-service-becrs-(4)",
+      "associatedBundleURL": [
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/cross-reference-services-bundle-(1000002)"
+      ],
+      "recentlyUpdated": false,
+      "datasetName": "Business Entity Cross Reference Service (BECRS)",
+      "associatedBundleName": [
+        "",
+        "Cross Reference Services Bundle"
+      ],
+      "associatedBundleId": [
+        "",
+        "1000002"
+      ],
+      "shortDescription": "A database of global entities identifiers, cross-referencing millions of companies.",
+      "detailedDescription": "<p>The S&amp;P Global Market Intelligence Business Entity Cross Reference Service provides you immediate cross-reference capabilities for millions of public and private entities using standardized and proprietary identifiers.</p><p>You can utilize Business Entity Cross Reference Service for timely and accurate data mapping to systematically update and maintain the multifaceted relationships within a corporate hierarchy, avoiding the time consuming and costly endeavor of manually maintaining your own linkages for mapping entities to issuers.</p><p>This dataset includes:</p><ul><li style=text-align:start;>EINs, Global Tax IDs, VAT IDs, Local Registration IDs</li><li>Rating IDs from S&amp;P Global, Moody's, Fitch</li><li>D&amp;B Duns IDs, Legal Entity Identifiers (LEI), CUSIPs<span style=\"color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: medium;font-family: Akkurat Pro;\">, Money Market Directories (MMD) ID</span>&nbsp;&nbsp;</li><li>Internal Entity IDs: GVkeys, SNL Institutional IDs, TrucostIDs, Markit Red Codes</li><li>Ultimate Parent IDs for companies with greater than 50% ownership</li><li>Domicile Codes for Headquarters and Country of Registration</li></ul>",
+      "datasetAddedDate": "2011-01-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/becrs-sampledata-f1ecbf47-6268-4aec-8e66-b7b5bd11835b.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/becrs-datadictionary-f1ecbf47-6268-4aec-8e66-b7b5bd11835b.xlsx",
+      "currentVersionDate": "2024-09-11T00:00:00.000+00:00",
+      "enhancementDescription": "<p>Cross References Services lookup tool is now available on Price Viewer.</p>",
+      "size": 1,
+      "fieldCount": "10s",
+      "pointInTime": false,
+      "earliestRecord": 1950,
+      "earliestSignificantCoverage": 1992,
+      "dataSource": "Publicly available sources including feeds from the SEC, SEDAR, ASX and RNS, regulatory agencies, company websites, direct company contact, exchange websites and news agencies",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Variable",
+      "dataLatency": "Variable",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "API",
+        "API Drive",
+        "Marketplace Workbench",
+        "Price Viewer",
+        "Snowflake",
+        "XpressAPI",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Reference"
+      ],
+      "researchDocumentURL": [
+        "https://blog.kensho.com/kensho-now-offers-a-connection-to-business-entity-cross-reference-service-from-its-link-solution-9058af900a2d",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/Deep%20Data%20helps%20a%20Freight%20Forwarder.pdf?version=0",
+        "https://www.spglobal.com/marketintelligence/en/solutions/cross-reference-services"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Business%20Entity%20Cross%20Reference%20Service",
+        "https://www.support.marketplace.spglobal.com/en/datasets/crossreference/becrs/business-entity-cross-reference-service-user-guide"
+      ],
+      "coverageCount": "32,000,000"
+    },
+    {
+      "datasetId": 12,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/global-instruments-cross-reference-service-gicrs-(12)",
+      "associatedBundleURL": [
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/cross-reference-services-bundle-(1000002)",
+        "https://www.marketplace.spglobal.com/en/datasets/bundle/tcfd-analytics-suite-(1000006)"
+      ],
+      "recentlyUpdated": false,
+      "datasetName": "Global Instruments Cross Reference Service (GICRS)",
+      "associatedBundleName": [
+        "",
+        "Cross Reference Services Bundle",
+        "TCFD Analytics Suite"
+      ],
+      "associatedBundleId": [
+        "",
+        "1000002",
+        "1000006"
+      ],
+      "shortDescription": "A database of security identifiers cross-referencing almost millions of instruments across Equity, Fixed Income, Mutual Funds, Indices and more.",
+      "detailedDescription": "<p>Access a deep database of global security identifiers cross-referencing 92 million instruments for reliable linking capabilities to help:</p><ul><li>Front, middle, and back office institutions subscribing to GICRS can streamline their operations and create customized data mapping systems for securities and trading items.</li><li>Easily link a security to its ISIN, CUSIP/CINS, SEDOL, local ID issued by NNAs, Bloomberg FIGI, Barra, Markit LoanX, and more.</li><li>Streamline your operations and create customized data mapping systems for securities and trading items such as equity, debt (notes and bonds), municipals, commercials paper, indices, mutual funds, and floating rate notes.</li><li>Keep up with the expanding markets and rapid growth of new securities by using this automated service to assist in the effort of linking securities to issuers.</li></ul>",
+      "datasetAddedDate": "2011-01-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/gicrs-sampledata-0a221bee-3511-4d78-b769-1e320f2193d4.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/gicrs-datadictionary-0a221bee-3511-4d78-b769-1e320f2193d4.xlsx",
+      "currentVersionDate": "2023-04-24T00:00:00.000+00:00",
+      "enhancementDescription": "<p>A new package GICRS ISIN non-CGS is now available that excludes ISINs assigned by CUSIP Global Services (CGS).</p>",
+      "size": 4,
+      "fieldCount": "10s",
+      "pointInTime": false,
+      "earliestRecord": 1968,
+      "earliestSignificantCoverage": 1992,
+      "dataSource": "Sourced directly from multiple vendors responsible for issues and securities",
+      "primaryEntityType": "Security",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Variable",
+      "dataLatency": "Variable",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "API",
+        "API Drive",
+        "Marketplace Workbench",
+        "Snowflake",
+        "XpressAPI",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Reference"
+      ],
+      "researchDocumentURL": [
+        "https://www.spglobal.com/marketintelligence/en/solutions/cross-reference-services"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=Global%20Instruments%20Cross%20Reference%20Service",
+        "https://www.support.marketplace.spglobal.com/en/datasets/crossreference/gicrs/global-instruments-cross-reference-service-user-guide"
+      ],
+      "coverageCount": "91,900,000"
+    },
+    {
+      "datasetId": 1,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/s-p-capital-iq-estimates-(1)",
+      "recentlyUpdated": false,
+      "datasetName": "S&P Capital IQ Estimates",
+      "shortDescription": "Comprehensive global estimates based on projections, models, analysis and research. Available as global, international or North American company packages.",
+      "detailedDescription": "<p>The S&amp;P Capital IQ Estimates dataset is the most comprehensive global estimates based on projections, models, analysis and research. This dataset can be used to evaluate earnings estimates to select stocks and manage investment performance and to track the direction and magnitude of upgrades and downgrades and more.</p><p>Available as Global, International or North American company packages, this dataset includes:</p><ul><li>Consensus Estimates: Aggregate analyst estimates for public companies</li><li>Detail Estimates: Historical and current estimates for specific trading items or companies</li><li>Company Guidance: A public company's estimates on its own future profit or loss</li><li>Analyst Coverage: <span style=color: rgb(0,0,0);background-color: rgb(255,255,255);font-size: 13.3333;font-family: Arial;>Estimates of public companies at any point in time provided by brokers and analysts</span>&nbsp;</li><li>Consensus Analysis: Estimated growth rates and estimate surprise calculations</li><li>Estimate Revisions: Upward and downward changes of broker estimates</li><li>Industry Estimates: Airlines, Banks, Education, Healthcare, Home-Building, Hotels &amp; Restaurants, Insurance, Metals and Mining, Multi-Financial, Pharmaceuticals &amp; Biotechnology, Real Estate, Retail, Telecommunications &amp; Media</li></ul>",
+      "datasetAddedDate": "2008-01-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/spglobalestimates-sampledata-fec1d12a-7211-4dcf-bde3-26f150fc5f5b.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/spglobalestimates-datadictionary_June_23-f704a2c3-6f5b-4faa-8ac0-da158004bcd2.xlsx",
+      "currentVersionDate": "2023-06-27T00:00:00.000+00:00",
+      "enhancementDescription": "<p>60+ new industry-specific operating forecasts spanning 14 industries have been added to this dataset — enabling you to go even deeper into the financial health of specific companies.</p>",
+      "size": 1000,
+      "fieldCount": "100s",
+      "pointInTime": true,
+      "pointInTimeDescription": "Timestamp whenever a detail is collected or corrected.",
+      "earliestRecord": 1996,
+      "earliestSignificantCoverage": 1996,
+      "dataSource": "Research documents",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Near Real Time",
+      "dataLatency": "Near Real Time",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "API",
+        "API Drive",
+        "ClariFI®",
+        "FTP",
+        "Marketplace Extract",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Company Financials"
+      ],
+      "researchDocumentURL": [
+        "https://pages.marketintelligence.spglobal.com/Chartiq_Dataset_Integration.html",
+        "https://pages.marketintelligence.spglobal.com/The-Value-of-Sell-Side-Analyst-Coverage-Networks-Registration-March-2021.html",
+        "https://spg-marketplace-workbench-research.cloud.databricks.com/?o=7655476408017665#notebook/1058246023882520",
+        "https://www.spglobal.com/marketintelligence/en/documents/a_league_of_their_own_batting_for_returns_in_the_reit_industry.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/qr-brief-information-supply-chain.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/the-analyst-matrix-profiting-from-sell-side-analysts-coverage-networks.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/what-does-earnings-guidance-tell-us-listen-when-management-announces-good-news.pdf",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/latest-news-headlines/most-homebuilders-set-to-log-higher-q2-2023-home-sales-price-recovery-continues-76424825#:~:text=Home%20sales%20in%20the%20second,sales%20for%20the%20second%20quarter.",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/bridges-for-sale-finding-value-in-sell-side-estimates-recommendations-and-target-prices",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/buying-the-dip-did-your-portfolio-holding-go-on-sale",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/data-arbitrage-with-proprietary-dividend-forecasts-precise-and-timely-updates-led-to-historical-outperformance",
+        "https://www.spglobal.com/market-intelligence/en/news-insights/research/sp-500-q3-2024-sector-earnings-revenue-data",
+        "https://www.spglobal.com/marketintelligence/en/news-insights/research/sweet-spots-in-the-csuite-executive-best-practices-for-shareholder-friendly-firms"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=S%26P%20Capital%20IQ%20Estimates",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/estimates/ciq/sp-capital-iq-estimates-user-guide"
+      ],
+      "coverageCount": "20,000+"
+    },
+    {
+      "datasetId": 10,
+      "datasetURL": "https://www.marketplace.spglobal.com/en/datasets/s-p-capital-iq-financials-(10)",
+      "recentlyUpdated": false,
+      "datasetName": "S&P Capital IQ Financials",
+      "shortDescription": "Standardized and As Reported financial data for global public companies as well as thousands of private companies and private companies with public debt.",
+      "detailedDescription": "<p>S&amp;P Capital IQ Financials provides global standardized financial statement data for over 180,000 companies, including over 95,000 active and inactive public companies, and As Reported data for over 150,000 companies. S&amp;P Capital IQ Standardized Financials allows you to extend the scope of your historical analysis and back-testing models with consistent data from all filings of a company's historical financial periods including press releases, original filings, and all restatements.</p><p>S&amp;P Capital IQ Standardized Financials includes:</p><ul><li>Over 5,000 standardized financial, supplemental, segment, ratio, and industry-specific data items on an annual, quarterly, semi-annual, last twelve month and year-to-date basis</li><li>Detailed debt and equity capital structure data</li><li>Historical annual and interim data available as far back as 1985 for certain datasets and geographies with significant coverage from 1993</li><li>Financial instance date providing the date and time data was first delivered</li><li>Unconsolidated data for publicly traded Chinese, Taiwanese, Korean, Japanese, and OTC traded Chinese entities</li></ul><p>S&amp;P Capital IQ As Reported Financials includes:</p><ul><li>As Reported Income Statement, Balance Sheet, and Cash Flow data for over 150,000 companies with significant historical coverage from 1993</li><li>Additional detail collected from the footnotes of the financial statements</li><li>Transparency functionality that links the standardized and As Reported data, allowing users to understand the As Reported components used in S&amp;P Capital IQ Standardized items</li></ul>",
+      "datasetAddedDate": "2003-01-01T00:00:00.000+00:00",
+      "vendorName": "Market Intelligence",
+      "vendorDescription": "At S&P Global Market Intelligence, we understand the importance of accurate, deep and insightful information. Our team of experts delivers unrivaled insights and leading data and technology solutions, partnering with customers to expand their perspective, operate with confidence, and make decisions with conviction.",
+      "sampleDataURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/spcapitaliqfundamentalssampledata-12573966-3c31-4dc9-be0f-8201f28946f3.xlsx",
+      "dataDictionaryURL": "https://assets.marketplace.spglobal.com/_assets/documents/marketplace/spglobalfinancials-datadictionary-47f8c703-7bab-458f-b824-221301a52c59.xlsx",
+      "size": 300,
+      "fieldCount": "1,000s",
+      "pointInTime": true,
+      "pointInTimeDescription": "Filing dates and product delivery date PIT",
+      "earliestRecord": 1985,
+      "earliestSignificantCoverage": 1993,
+      "dataSource": "Publicly available documents, company filings, annual reports, press releases",
+      "primaryEntityType": "Company",
+      "industryCoverage": [
+        "",
+        "Consumer",
+        "Energy and Utilities",
+        "Financials",
+        "Healthcare",
+        "Industrials",
+        "Materials",
+        "Real Estate",
+        "Technology, Media & Telecommunications"
+      ],
+      "geographyCoverage": [
+        "",
+        "Global"
+      ],
+      "reportingFrequency": "Daily",
+      "dataLatency": "Intraday",
+      "deliveryChannel": [
+        "",
+        "API",
+        "Cloud",
+        "Desktop",
+        "Feed"
+      ],
+      "deliveryPlatform": [
+        "",
+        "API",
+        "API Drive",
+        "ClariFI®",
+        "FTP",
+        "Marketplace Workbench",
+        "Snowflake",
+        "S&P Capital IQ",
+        "S&P Capital IQ Pro",
+        "Xpressfeed™"
+      ],
+      "category": [
+        "",
+        "Company Financials"
+      ],
+      "researchDocumentURL": [
+        "https://pages.marketintelligence.spglobal.com/Chartiq_Dataset_Integration.html",
+        "https://pages.marketintelligence.spglobal.com/rs/565-BDO-100/images/A%20Credit%20Insurance%20Firm%20Automates%20Its%20Evaluation%20of%20Company%20Creditworthiness.pdf?version=0",
+        "https://www.spglobal.com/marketintelligence/en/documents/11-industries-70-alpha-signals.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/introducing-sp-capital-iq-stock-selection-model-for-the-japanese-market-august-2015.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/mi-research-qr-profitability-180605.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/solving-alternative-data-challenges-with-the-sp-global-marketplace.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-capitaliq-quantamental-point-in-time-vs-lagged-fundamentals.pdf",
+        "https://www.spglobal.com/marketintelligence/en/documents/sp-global-delivering-value-from-data.pdf"
+      ],
+      "supportDocumentationURL": [
+        "https://www.marketplace.spglobal.com/en/support/query-library?search=S%26P%20Capital%20IQ%20Fundamentals",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/asreportedfinancials/as-reported-financials-user-guide",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/latestfinancials/latest-financials-user-guide",
+        "https://www.support.marketplace.spglobal.com/en/datasets/ciq/premiumfinancials/premium-financials-user-guide"
+      ],
+      "coverageCount": "180,000+"
+    }
+  ]
+}
